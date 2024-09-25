@@ -1,0 +1,20 @@
+.test {
+  border: 1px solid gray;
+}
+
+.container {
+  display: flex;
+  gap: 32px;
+}
+
+.block__square {
+  height: 150px;
+  width: 150px;
+  background-color: gray;
+}
+.block__input {
+  display: block;
+}
+.block__input:checked ~ .block__square {
+  opacity: 50%;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,30 @@
+.test{
+    border: 1px solid gray;
+
+}
+
+
+
+.container{
+    display: flex;
+    gap: 32px;
+}
+
+
+
+
+.block{
+    &__square{
+        height: 150px;
+        width: 150px;
+        background-color: gray;
+    }
+
+    &__input{
+        display: block;
+
+        &:checked ~.block__square{
+            opacity:50%;
+        }
+    }
+}
